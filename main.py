@@ -72,8 +72,8 @@ sleep(18)
 iframeElement = browser.find_element_by_tag_name('iframe-form')
 browser.switch_to.frame(iframeElement)
 #WebDriverWait(browser, 20).until(EC.frame_to_be_available_and_switch_to_it(By.XPATH, "//iframe[@id = "))
-cardNumber = browser.find_element_by_xpath("/html/body/form/input[1]").send_keys(4258284530541516)
+cardNumber = browser.find_element_by_xpath("/html/body/form/input[1]").send_keys(1234567812344321)
 CVV = browser.find_element_by_xpath('/html/body/form/input').send_keys(321)
 CardExpiration = browser.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/main/div[2]/div[1]/div[2]/div/div/div/form/div[4]/div/input")\
-    .send_keys(321)
+    .send_keys(123)
 
